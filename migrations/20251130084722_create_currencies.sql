@@ -3,7 +3,7 @@
 
 CREATE TABLE IF NOT EXISTS app.currencies (
     code VARCHAR(10) PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
+    name VARCHAR(100) NOT NULL
 );
 
 COMMENT ON TABLE app.currencies IS 'Справочник валют';
